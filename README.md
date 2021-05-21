@@ -17,3 +17,5 @@ A template to be used for all our future repositories.
         * Tick `Dismiss stale pull request approvals when new commits are pushed `.
   
 - [ ] In the repo view, edit the about section and add tags. Leave the website empty for now.
+
+- [ ] Edit or remove `codeql-analysis.yml` workflow or remove if not applicable.

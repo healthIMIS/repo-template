@@ -1,0 +1,19 @@
+version: 2
+# see https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically
+# for more information and config options.
+updates:
+  # Set update schedule for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  #- package-ecosystem: "docker"
+  #  directory: "/"
+  #  schedule:
+  #    interval: "weekly"
+
+  #- package-ecosystem: "pip"
+  #  directory: "/"
+  #  schedule:
+  #    interval: "weekly"
